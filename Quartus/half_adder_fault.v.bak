@@ -1,0 +1,12 @@
+module half_adder(
+    input a,
+    input b,
+    output sum,
+    output carry
+);
+
+    assign sum = a ^ b;    // XOR para soma
+    // Introdução de erro: Inverter o resultado do AND
+    assign carry = ~(a & b);  // Erro intencional
+
+endmodule
