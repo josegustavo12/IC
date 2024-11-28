@@ -1,0 +1,46 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar Verilog",
+            "type": "shell",
+            "command": "iverilog",
+            "args": [
+                "-o",
+                "c17",
+                "c17.v",
+                "c17_tb.v"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Simular Verilog",
+            "type": "shell",
+            "command": "./meu_projeto",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn": "Compilar Verilog"
+        },
+        {
+            "label": "Visualizar Forma de Onda",
+            "type": "shell",
+            "command": "gtkwave",
+            "args": [
+                "dump.vcd"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "dependsOn": "Simular Verilog"
+        }
+    ]
+}

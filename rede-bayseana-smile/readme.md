@@ -76,25 +76,24 @@ Onde:
 
 ### **Exemplo Prático**
 
-**Problema**: Suponha que 1% da população tem uma certa doença (\( H \)). Um teste para essa doença tem 99% de sensibilidade (\( P(T|H) = 0.99 \)) e 95% de especificidade (\( P(\neg T|\neg H) = 0.95 \)). Qual a probabilidade de uma pessoa ter a doença dado que o teste foi positivo (\( P(H|T) \))?
+**Problema**: Suponha que 1% da população tem uma certa doença H. Um teste para essa doença tem 99% de sensibilidade (P(T|H) = 0.99) e 95% de especificidade (P(-T|-H) = 0.95 ). Qual a probabilidade de uma pessoa ter a doença dado que o teste foi positivo ( P(H|T) )?
 
 **Aplicação do Teorema de Bayes**:
 
-\[
-P(H|T) = \frac{P(T|H) \times P(H)}{P(T)}
-\]
+
+$P(H|T) = \frac{P(T|H) \times P(H)}{P(T)}$
+
 
 Calculando \( P(T) \):
 
-\[
-P(T) = P(T|H) \times P(H) + P(T|\neg H) \times P(\neg H) = 0.99 \times 0.01 + (1 - 0.95) \times 0.99 = 0.0099 + 0.0495 = 0.0594
-\]
+
+$P(T) = P(T|H) \times P(H) + P(T|\neg H) \times P(\neg H) = 0.99 \times 0.01 + (1 - 0.95) \times 0.99 = 0.0099 + 0.0495 = 0.0594$
 
 Então,
 
-\[
-P(H|T) = \frac{0.99 \times 0.01}{0.0594} \approx 0.1667 \text{ ou } 16.67\%
-\]
+
+$P(H|T) = \frac{0.99 \times 0.01}{0.0594} \approx 0.1667 \text{ ou } 16.67\%$
+
 
 **Interpretação**: Mesmo com um teste positivo, a probabilidade de realmente ter a doença é de aproximadamente 16.67%, devido à baixa prevalência da doença e à taxa de falsos positivos.
 

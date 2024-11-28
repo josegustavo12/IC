@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!-- This network was created by pyAgrum 1.13.2 for any purpose you want -->
+<smile version="1.0" id="test">
+
+  <nodes>
+    <cpt id="s1">
+      <state id="0" />
+      <state id="1" />
+      <probabilities>0.5 0.5</probabilities>
+    </cpt>
+    <cpt id="s0">
+      <state id="0" />
+      <state id="1" />
+      <probabilities>0.5 0.5</probabilities>
+    </cpt>
+    <cpt id="r0">
+      <state id="0" />
+      <state id="1" />
+      <parents>s0 s1</parents>
+      <probabilities>1 0 0 1 0 1 0 1</probabilities>
+    </cpt>
+  </nodes>
+
+  <extensions>
+    <genie version="1.0" app="aGrUM 1.13.2" name="test">
+      <node id="s1">
+        <name>s1</name>
+      </node>
+      <node id="s0">
+        <name>s0</name>
+      </node>
+      <node id="r0">
+        <name>r0</name>
+      </node>
+    </genie>
+  </extensions>
+
+</smile>
