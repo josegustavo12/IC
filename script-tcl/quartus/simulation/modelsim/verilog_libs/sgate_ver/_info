@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/14783765/Desktop/IC/script-tcl/quartus/simulation/modelsim
 vio_buf_opdrn
-Z1 !s110 1732801998
+Z1 !s110 1732889143
 !i10b 1
 !s100 VhizJG_UoJ<b<SS=?:bCT2
 I8n^`e2NeOb`WzQ2SV=KF32
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1732801998.000000
+Z7 !s108 1732889143.000000
 Z8 !s107 c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v|
 !i113 1

@@ -1,0 +1,16 @@
+Estados COM falhas na porta: NAND2_0
+Estado Inicial: StX StX
+Estado Final: St1 St1
+
+Estados COM falhas na porta: NAND2_1
+Estado Inicial: StX StX
+Estado Final: St0 St0
+
+Estados COM falhas na porta: NAND2_2
+Estado Inicial: StX StX
+Estado Final: St1 St1
+
+Estados COM falhas na porta: NAND2_3
+Estado Inicial: StX StX
+Estado Final: St1 St1
+

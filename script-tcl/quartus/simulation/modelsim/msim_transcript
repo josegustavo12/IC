@@ -5,6 +5,7 @@
 # }
 # 
 # vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
 # vmap altera_ver ./verilog_libs/altera_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap altera_ver ./verilog_libs/altera_ver 
@@ -12,7 +13,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:16 on Nov 28,2024
+# Start time: 11:05:41 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -94,17 +95,18 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 10:53:18 on Nov 28,2024, Elapsed time: 0:00:02
+# End time: 11:05:42 on Nov 29,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
 # vmap lpm_ver ./verilog_libs/lpm_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap lpm_ver ./verilog_libs/lpm_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:18 on Nov 28,2024
+# Start time: 11:05:42 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -168,17 +170,18 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 10:53:18 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:43 on Nov 29,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
 # vmap sgate_ver ./verilog_libs/sgate_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap sgate_ver ./verilog_libs/sgate_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:18 on Nov 28,2024
+# Start time: 11:05:43 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -220,17 +223,18 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 10:53:18 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:43 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
 # vmap altera_mf_ver ./verilog_libs/altera_mf_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap altera_mf_ver ./verilog_libs/altera_mf_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:19 on Nov 28,2024
+# Start time: 11:05:43 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -360,17 +364,18 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 10:53:20 on Nov 28,2024, Elapsed time: 0:00:01
+# End time: 11:05:44 on Nov 29,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_lnsim_ver".
 # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap altera_lnsim_ver ./verilog_libs/altera_lnsim_ver 
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:20 on Nov 28,2024
+# Start time: 11:05:45 on Nov 29,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -453,17 +458,18 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 10:53:21 on Nov 28,2024, Elapsed time: 0:00:01
+# End time: 11:05:45 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_ver".
 # vmap cyclonev_ver ./verilog_libs/cyclonev_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap cyclonev_ver ./verilog_libs/cyclonev_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:21 on Nov 28,2024
+# Start time: 11:05:45 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -477,19 +483,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 10:53:25 on Nov 28,2024, Elapsed time: 0:00:04
+# End time: 11:05:49 on Nov 29,2024, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 20
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:25 on Nov 28,2024
+# Start time: 11:05:49 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 10:53:28 on Nov 28,2024, Elapsed time: 0:00:03
+# End time: 11:05:51 on Nov 29,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:28 on Nov 28,2024
+# Start time: 11:05:51 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -629,25 +635,26 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 10:53:28 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:51 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_hssi_ver".
 # vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap cyclonev_hssi_ver ./verilog_libs/cyclonev_hssi_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:29 on Nov 28,2024
+# Start time: 11:05:52 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 10:53:32 on Nov 28,2024, Elapsed time: 0:00:03
+# End time: 11:05:54 on Nov 29,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:32 on Nov 28,2024
+# Start time: 11:05:54 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -747,17 +754,18 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 10:53:32 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:54 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cyclonev_pcie_hip_ver".
 # vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap cyclonev_pcie_hip_ver ./verilog_libs/cyclonev_pcie_hip_ver 
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:32 on Nov 28,2024
+# Start time: 11:05:55 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -767,18 +775,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 10:53:36 on Nov 28,2024, Elapsed time: 0:00:04
+# End time: 11:05:58 on Nov 29,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 12
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:36 on Nov 28,2024
+# Start time: 11:05:58 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver c:/intelfpga_lite/21.1/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 10:53:36 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:58 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -792,13 +800,13 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/14783765/Desktop/IC/script-tcl/quartus {C:/Users/14783765/Desktop/IC/script-tcl/quartus/C17.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:53:36 on Nov 28,2024
+# Start time: 11:05:59 on Nov 29,2024
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/14783765/Desktop/IC/script-tcl/quartus" C:/Users/14783765/Desktop/IC/script-tcl/quartus/C17.v 
 # -- Compiling module C17
 # 
 # Top level modules:
 # 	C17
-# End time: 10:53:36 on Nov 28,2024, Elapsed time: 0:00:00
+# End time: 11:05:59 on Nov 29,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 dir
@@ -807,172 +815,76 @@ dir
 # 
 #  Pasta de C:\Users\14783765\Desktop\IC\script-tcl\quartus\simulation\modelsim
 # 
-# 28/11/2024  10:53    <DIR>          .
-# 28/11/2024  10:53    <DIR>          ..
-# 28/11/2024  10:47                36 C17.sft
-# 28/11/2024  10:47             6.711 C17.vo
-# 28/11/2024  10:47               706 C17_modelsim.xrf
-# 28/11/2024  10:53             2.297 C17_run_msim_rtl_verilog.do
-# 28/11/2024  10:53            11.501 modelsim.ini
-# 28/11/2024  10:53            31.364 msim_transcript
-# 28/11/2024  10:53    <DIR>          rtl_work
+# 29/11/2024  11:05    <DIR>          .
+# 29/11/2024  11:05    <DIR>          ..
+# 28/11/2024  11:12                36 C17.sft
+# 28/11/2024  11:12             6.711 C17.vo
+# 28/11/2024  11:12               706 C17_modelsim.xrf
+# 29/11/2024  11:05             2.297 C17_run_msim_rtl_verilog.do
+# 28/11/2024  10:53             2.297 C17_run_msim_rtl_verilog.do.bak
+# 29/11/2024  11:05            11.501 modelsim.ini
+# 29/11/2024  11:05            32.013 msim_transcript
+# 29/11/2024  11:05    <DIR>          rtl_work
 # 28/11/2024  10:53    <DIR>          verilog_libs
-#                6 arquivo(s)         52.615 bytes
-#                4 pasta(s)   39.591.264.256 bytes dispon¡veis
-vlib work
-
-vmap work work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work work 
-# Modifying modelsim.ini
-
-vsim -c -do c17_simulation.tcl
-# No design specified
-
-vlog c17.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:55:08 on Nov 28,2024
-# vlog -reportprogress 300 c17.v 
-# ** Error: (vlog-7) Failed to open design unit file "c17.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 10:55:08 on Nov 28,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA/19.1/modelsim_ase/win32aloem/vlog failed.
-
-vlog C17.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:55:22 on Nov 28,2024
-# vlog -reportprogress 300 C17.v 
-# ** Error: (vlog-7) Failed to open design unit file "C17.v" in read mode.
-# No such file or directory. (errno = ENOENT)
-# End time: 10:55:22 on Nov 28,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA/19.1/modelsim_ase/win32aloem/vlog failed.
-cd ..
+# 28/11/2024  10:55    <DIR>          work
+#                7 arquivo(s)         55.561 bytes
+#                5 pasta(s)   37.515.431.936 bytes dispon¡veis
+cd work
 # reading C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini
 dir
 #  O volume na unidade C nÆo tem nome.
 #  O N£mero de S‚rie do Volume ‚ E29A-5E4B
 # 
-#  Pasta de C:\Users\14783765\Desktop\IC\script-tcl\quartus\simulation
+#  Pasta de C:\Users\14783765\Desktop\IC\script-tcl\quartus\simulation\modelsim\work
 # 
-# 28/11/2024  10:47    <DIR>          .
-# 28/11/2024  10:47    <DIR>          ..
-# 28/11/2024  10:54    <DIR>          modelsim
-#                0 arquivo(s)              0 bytes
-#                3 pasta(s)   39.591.419.904 bytes dispon¡veis
+# 28/11/2024  10:55    <DIR>          .
+# 28/11/2024  10:55    <DIR>          ..
+# 28/11/2024  10:54               141 _info
+#                1 arquivo(s)            141 bytes
+#                2 pasta(s)   37.515.390.976 bytes dispon¡veis
+cd ..
+# reading modelsim.ini
+cd ..
+# reading C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini
 cd C:\Users\14783765\Desktop\IC\script-tcl\quartus
 # couldn't change working directory to "C:Usersg83765DesktopICscript-tclquartus": no such file or directory
-C:/Users/14783765/Desktop/IC/script-tcl/quartus
-# invalid command name "C:/Users/14783765/Desktop/IC/script-tcl/quartus"
 cd C:/Users/14783765/Desktop/IC/script-tcl/quartus
+# reading modelsim.ini
 dir
 #  O volume na unidade C nÆo tem nome.
 #  O N£mero de S‚rie do Volume ‚ E29A-5E4B
 # 
 #  Pasta de C:\Users\14783765\Desktop\IC\script-tcl\quartus
 # 
-# 28/11/2024  10:53    <DIR>          .
-# 28/11/2024  10:53    <DIR>          ..
+# 29/11/2024  11:03    <DIR>          .
+# 29/11/2024  11:03    <DIR>          ..
 # 28/11/2024  10:41             1.354 C17.qpf
-# 28/11/2024  10:46             3.355 C17.qsf
+# 29/11/2024  11:05             3.355 C17.qsf
 # 28/11/2024  10:46               286 C17.v
 # 28/11/2024  10:43               286 C17.v.bak
-# 28/11/2024  10:53               908 C17_nativelink_simulation.rpt
-# 28/11/2024  10:50             1.671 c17_simulation.tcl
-# 28/11/2024  10:47             2.857 c5_pin_model_dump.txt
-# 28/11/2024  10:53    <DIR>          db
+# 29/11/2024  11:05             1.027 C17_nativelink_simulation.rpt
+# 28/11/2024  11:11             1.827 c17_simulation.tcl
+# 28/11/2024  11:12             2.857 c5_pin_model_dump.txt
+# 29/11/2024  11:05    <DIR>          db
 # 28/11/2024  10:46    <DIR>          incremental_db
-# 28/11/2024  10:47    <DIR>          output_files
+# 28/11/2024  10:58            11.127 modelsim.ini
+# 29/11/2024  11:05    <DIR>          output_files
+# 28/11/2024  11:07                30 results.log
 # 28/11/2024  10:47    <DIR>          simulation
-#                7 arquivo(s)         10.717 bytes
-#                6 pasta(s)   39.589.679.104 bytes dispon¡veis
-vlog C17.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:56:46 on Nov 28,2024
-# vlog -reportprogress 300 C17.v 
-# ** Error: (vlog-66) Execution of vlib.exe failed. Please check the error log for more details.
-# End time: 10:56:46 on Nov 28,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# C:/intelFPGA/19.1/modelsim_ase/win32aloem/vlog failed.
-vlib work
+# 28/11/2024  11:11            49.152 vsim.wlf
+# 28/11/2024  10:58    <DIR>          work
+#               10 arquivo(s)         71.301 bytes
+#                7 pasta(s)   37.514.350.592 bytes dispon¡veis
+vsim C17.v
+# OpenFile C17.v
+do test_script.tcl
+# Cannot open macro file: test_script.tcl
 
-vmap work work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work work 
-# Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
-# Modifying modelsim.ini
-
-vlog C17.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 10:58:30 on Nov 28,2024
-# vlog -reportprogress 300 C17.v 
-# -- Compiling module C17
-# 
-# Top level modules:
-# 	C17
-# End time: 10:58:30 on Nov 28,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.c17
-# vsim work.c17 
-# Start time: 10:58:59 on Nov 28,2024
-# ** Error: (vsim-3170) Could not find 'c17'.
-#         Searched libraries:
-#             C:/Users/14783765/Desktop/IC/script-tcl/quartus/work
-# Error loading design
-
-# End time: 10:58:59 on Nov 28,2024, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vsim work.c17
-# vsim work.c17 
-# Start time: 10:59:27 on Nov 28,2024
-# ** Error: (vsim-3170) Could not find 'c17'.
-#         Searched libraries:
-#             C:/Users/14783765/Desktop/IC/script-tcl/quartus/work
-# Error loading design
-
-# End time: 10:59:28 on Nov 28,2024, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 0
-vsim work.C17
+do C17_simulation.tcl
 # vsim work.C17 
-# Start time: 11:00:21 on Nov 28,2024
+# Start time: 11:15:25 on Nov 29,2024
 # Loading work.C17
-do c17_simulation.tcl
-# End time: 11:01:14 on Nov 28,2024, Elapsed time: 0:00:53
-# Errors: 0, Warnings: 0
-# vsim -c -do "run -all" work.c17 
-# Start time: 11:01:14 on Nov 28,2024
-# ** Error: (vsim-3170) Could not find 'c17'.
-#         Searched libraries:
-#             C:/Users/14783765/Desktop/IC/script-tcl/quartus/work
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./c17_simulation.tcl PAUSED at line 2
-do c17_simulation.tcl
-# vsim -c -do "run -all" work.C17 
-# Start time: 11:01:14 on Nov 28,2024
-# Loading work.C17
-# run -all
-# /c17/G8 /c17/G9 /c17/G12 /c17/G15
-# ** Error: couldn't open "C:Usersg83765DesktopICscript-tclRANDOMandom_vectors.txt": no such file or directory
-# Error in macro ./c17_simulation.tcl line 44
-# couldn't open "C:Usersg83765DesktopICscript-tclRANDOMandom_vectors.txt": no such file or directory
-#     while executing
-# "open $filename r"
-#     (procedure "load_test_vectors" line 3)
-#     invoked from within
-# "load_test_vectors "C:\Users\14783765\Desktop\IC\script-tcl\RANDOM\random_vectors.txt""
-#     invoked from within
-# "set vectors [load_test_vectors "C:\Users\14783765\Desktop\IC\script-tcl\RANDOM\random_vectors.txt"]"
-do c17_simulation.tcl
-# End time: 11:03:03 on Nov 28,2024, Elapsed time: 0:01:49
-# Errors: 4, Warnings: 0
-# vsim -c -do "run -all" work.C17 
-# Start time: 11:03:03 on Nov 28,2024
-# Loading work.C17
-# run -all
-# /c17/G8 /c17/G9 /c17/G12 /c17/G15
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
 # 0 1 1 0 1
 # 1 0 0 0 1
 # 0 1 1 1 1
@@ -993,63 +905,78 @@ do c17_simulation.tcl
 # 0 1 1 1 0
 # 1 1 1 1 1
 # 0 1 1 0 0
-# Injetando falha no nó: /c17/G8
-# ** Error (suppressible): (vsim-4008) Object '/c17/G1' not found.
-# Error in macro ./c17_simulation.tcl line 50
-# ** Error (suppressible): (vsim-4008) Object '/c17/G1' not found.
-# 
+# Injetando falha no nó: /C17/G8
+# Injetando falha no nó: /C17/G9
+# Injetando falha no nó: /C17/G12
+# Injetando falha no nó: /C17/G15
+do C17_simulation.tcl
+# End time: 11:22:13 on Nov 29,2024, Elapsed time: 0:06:48
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 11:22:13 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# St1 St1
+# St0 St1
+# St0 St0
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St1
+# St1 St1
+# St1 St1
+# St1 St1
+# St0 St0
+# St0 St0
+# St0 St1
+# St1 St0
+# St1 St1
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St0
+# St1 St1
+# Injetando falha no nó: /C17/G8
+# ** Error: couldn't open "results_with_fault_/C17/G8.log": no such file or directory
+# Error in macro ./C17_simulation.tcl line 114
+# couldn't open "results_with_fault_/C17/G8.log": no such file or directory
 #     while executing
-# "force /c17/G1 [lindex $inputs 0]"
-#     (procedure "apply_vectors" line 5)
+# "open $filename w"
+#     (procedure "save_results" line 2)
 #     invoked from within
-# "apply_vectors $vectors $node"
-#     ("foreach" body line 3)
+# "save_results "results_with_fault_$node.log" $results_with_fault $node"
+#     ("foreach" body line 8)
 #     invoked from within
 # "foreach node $fault_nodes {
 #     puts "Injetando falha no nó: $node"
-#     apply_vectors $vectors $node
-# }"
-do c17_simulation.tcl
-# End time: 11:05:34 on Nov 28,2024, Elapsed time: 0:02:31
-# Errors: 1, Warnings: 0
-# vsim work.C17 
-# Start time: 11:05:34 on Nov 28,2024
-# Loading work.C17
-# /C17/G8 /C17/G9 /C17/G12 /C17/G15
-# 0 1 1 0 1
-# 1 0 0 0 1
-# 0 1 1 1 1
-# 1 0 1 1 0
-# 1 0 0 0 1
-# 1 0 0 1 0
-# 0 1 0 1 1
-# 0 1 0 1 1
-# 1 1 0 1 1
-# 0 1 1 0 0
-# 0 0 1 0 0
-# 0 0 1 1 1
-# 1 0 0 1 1
-# 1 0 1 1 0
-# 0 1 0 1 1
-# 1 0 1 1 1
-# 1 0 0 1 1
-# 0 1 1 1 0
-# 1 1 1 1 1
-# 0 1 1 0 0
-# Injetando falha no nó: /C17/G8
-# Injetando falha no nó: /C17/G9
-# Injetando falha no nó: /C17/G12
-# Injetando falha no nó: /C17/G15
-# ** Error: Window not found.
-# Error in macro ./c17_simulation.tcl line 54
-# Window not found.
-#     while executing
-# "write list -r /* -file results.log"
-do c17_simulation.tcl
-# End time: 11:07:19 on Nov 28,2024, Elapsed time: 0:01:45
+# 
+#     # Simular com falha
+#     set results_with_fault [apply_vectors $vectors $node..."
+do C17_simulation.tcl
+# End time: 11:25:51 on Nov 29,2024, Elapsed time: 0:03:38
 # Errors: 3, Warnings: 0
 # vsim work.C17 
-# Start time: 11:07:19 on Nov 28,2024
+# Start time: 11:25:51 on Nov 29,2024
 # Loading work.C17
 # /C17/G8 /C17/G9 /C17/G12 /C17/G15
 # 0 1 1 0 1
@@ -1072,26 +999,374 @@ do c17_simulation.tcl
 # 0 1 1 1 0
 # 1 1 1 1 1
 # 0 1 1 0 0
+# St1 St1
+# St0 St1
+# St0 St0
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St1
+# St1 St1
+# St1 St1
+# St1 St1
+# St0 St0
+# St0 St0
+# St0 St1
+# St1 St0
+# St1 St1
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St0
+# St1 St1
 # Injetando falha no nó: /C17/G8
 # Injetando falha no nó: /C17/G9
 # Injetando falha no nó: /C17/G12
 # Injetando falha no nó: /C17/G15
-cat results.log
-# /C17/G16: St1
-# /C17/G17: St1
-# 
-
-force /C17/G1 1
-force /C17/G2 0
-force /C17/G3 1
-force /C17/G4 0
-force /C17/G5 1
-run 100ns
-
-examine /C17/G16
-# St1
-examine /C17/G17
-# St1
-
-# End time: 11:11:04 on Nov 28,2024, Elapsed time: 0:03:45
+do C17_simulation.tcl
+# End time: 11:46:13 on Nov 29,2024, Elapsed time: 0:20:22
 # Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 11:46:13 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# St1 St1
+# St0 St1
+# St0 St0
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St1
+# St1 St1
+# St1 St1
+# St1 St1
+# St0 St0
+# St0 St0
+# St0 St1
+# St1 St0
+# St1 St1
+# St1 St0
+# St0 St1
+# St0 St0
+# St1 St0
+# St1 St1
+# Injetando falha no nó: /C17/G8
+# Injetando falha no nó: /C17/G9
+# Injetando falha no nó: /C17/G12
+# Injetando falha no nó: /C17/G15
+do C17_simulation.tcl
+# End time: 12:01:48 on Nov 29,2024, Elapsed time: 0:15:35
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:01:48 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# St1 St1
+# St1
+# St1
+# Injetando falha no nó: /C17/G8
+# Injetando falha no nó: /C17/G9
+# Injetando falha no nó: /C17/G12
+# Injetando falha no nó: /C17/G15
+# file1851cba0
+# Simulações concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:03:50 on Nov 29,2024, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:03:50 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# ** Error: ambiguous command name "reset": resetGlobalEvcd resetTime
+# Error in macro ./C17_simulation.tcl line 98
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+#     while executing
+# "reset"
+do C17_simulation.tcl
+# End time: 12:04:47 on Nov 29,2024, Elapsed time: 0:00:57
+# Errors: 3, Warnings: 0
+# vsim work.C17 
+# Start time: 12:04:47 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# ** Error: ambiguous command name "reset": resetGlobalEvcd resetTime
+# Error in macro ./C17_simulation.tcl line 98
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+#     while executing
+# "reset"
+do C17_simulation.tcl
+# End time: 12:05:07 on Nov 29,2024, Elapsed time: 0:00:20
+# Errors: 3, Warnings: 0
+# vsim work.C17 
+# Start time: 12:05:07 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# StX
+# StX
+# St1 St1
+# St1
+# Injetando falha no nó: /C17/G8
+# Injetando falha no nó: /C17/G9
+# Injetando falha no nó: /C17/G12
+# Injetando falha no nó: /C17/G15
+# file10a21eb0
+# Simulações concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:06:58 on Nov 29,2024, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:06:58 on Nov 29,2024
+# Loading work.C17
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# 0 1 1 0 1
+# 1 0 0 0 1
+# 0 1 1 1 1
+# 1 0 1 1 0
+# 1 0 0 0 1
+# 1 0 0 1 0
+# 0 1 0 1 1
+# 0 1 0 1 1
+# 1 1 0 1 1
+# 0 1 1 0 0
+# 0 0 1 0 0
+# 0 0 1 1 1
+# 1 0 0 1 1
+# 1 0 1 1 0
+# 0 1 0 1 1
+# 1 0 1 1 1
+# 1 0 0 1 1
+# 0 1 1 1 0
+# 1 1 1 1 1
+# 0 1 1 0 0
+# StX
+# StX
+# St1 St1
+# St1
+# Injetando falha no nó: /C17/G8
+# Injetando falha no nó: /C17/G9
+# Injetando falha no nó: /C17/G12
+# Injetando falha no nó: /C17/G15
+# file10a48c90
+# Simulações concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:10:08 on Nov 29,2024, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:10:08 on Nov 29,2024
+# Loading work.C17
+# C:/Users/14783765/Desktop/IC/script-tcl/RANDOM/random_vectors.txt
+# file10a17b18
+# Iniciando simulação SEM falhas...
+# StX
+# StX
+# St1
+# St1
+# file1099b4a0
+# Simulação SEM falhas concluída. Resultados salvos em ./results/states_no_fault.log
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# Iniciando simulação COM falha no nó: /C17/G8
+# Simulação COM falha no nó /C17/G8 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G9
+# Simulação COM falha no nó /C17/G9 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G12
+# Simulação COM falha no nó /C17/G12 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G15
+# Simulação COM falha no nó /C17/G15 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Todas as simulações foram concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:13:59 on Nov 29,2024, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:13:59 on Nov 29,2024
+# Loading work.C17
+# C:/Users/14783765/Desktop/IC/script-tcl/RANDOM/random_vectors.txt
+# file10a18270
+# Iniciando simulação SEM falhas...
+# StX StX St1 St1
+# StX
+# StX
+# St1
+# St1
+# file10a25d80
+# Simulação SEM falhas concluída. Resultados salvos em ./results/states_no_fault.log
+# /C17/G8 /C17/G9 /C17/G12 /C17/G15
+# Iniciando simulação COM falha no nó: /C17/G8
+# Simulação COM falha no nó /C17/G8 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G9
+# Simulação COM falha no nó /C17/G9 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G12
+# Simulação COM falha no nó /C17/G12 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha no nó: /C17/G15
+# Simulação COM falha no nó /C17/G15 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Todas as simulações foram concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:16:11 on Nov 29,2024, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:16:11 on Nov 29,2024
+# Loading work.C17
+# C:/Users/14783765/Desktop/IC/script-tcl/RANDOM/random_vectors.txt
+# file10a44dc0
+# Iniciando simulação SEM falhas...
+# StX StX St1 St1
+# StX
+# StX
+# St1
+# St1
+# file10a49b68
+# Simulação SEM falhas concluída. Resultados salvos em ./results/states_no_fault.log
+# 
+#     {/C17/G8 NAND2_0}
+#     {/C17/G9 NAND2_1}
+#     {/C17/G12 NAND2_2}
+#     {/C17/G15 NAND2_3}
+# 
+# Iniciando simulação COM falha na porta: NAND2_0
+# Simulação COM falha na porta NAND2_0 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_1
+# Simulação COM falha na porta NAND2_1 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_2
+# Simulação COM falha na porta NAND2_2 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_3
+# Simulação COM falha na porta NAND2_3 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Todas as simulações foram concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:17:21 on Nov 29,2024, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:17:21 on Nov 29,2024
+# Loading work.C17
+# C:/Users/14783765/Desktop/IC/script-tcl/RANDOM/random_vectors.txt
+# file18287e88
+# Iniciando simulação SEM falhas...
+# StX StX St1 St1
+# StX
+# StX
+# St1
+# St1
+# file18505c48
+# Simulação SEM falhas concluída. Resultados salvos em ./results/states_no_fault.log
+# 
+#     {/C17/G8 NAND2_0}
+#     {/C17/G9 NAND2_1}
+#     {/C17/G12 NAND2_2}
+#     {/C17/G15 NAND2_3}
+# 
+# Iniciando simulação COM falha na porta: NAND2_0
+# Simulação COM falha na porta NAND2_0 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_1
+# Simulação COM falha na porta NAND2_1 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_2
+# Simulação COM falha na porta NAND2_2 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Iniciando simulação COM falha na porta: NAND2_3
+# Simulação COM falha na porta NAND2_3 concluída. Resultados adicionados a ./results/states_with_fault.log
+# Todas as simulações foram concluídas. Resultados salvos na pasta ./results
+do C17_simulation.tcl
+# End time: 12:20:02 on Nov 29,2024, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 0
+# vsim work.C17 
+# Start time: 12:20:02 on Nov 29,2024
+# Loading work.C17
+# C:/Users/14783765/Desktop/IC/script-tcl/RANDOM/random_vectors.txt
+# file186b71d8
+# Iniciando simulação SEM falhas...

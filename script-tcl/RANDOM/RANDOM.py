@@ -14,7 +14,7 @@ def save_vectors(vectors, filename):
 if __name__ == "__main__":
     # Configurações do circuito C17
     NUM_INPUTS = 5  # C17 tem 5 entradas
-    NUM_RANDOM_VECTORS = 20  # N�mero de vetores RANDOM
+    NUM_RANDOM_VECTORS = 50  # N�mero de vetores RANDOM
 
     # Geração de vetores RANDOM
     random_vectors = generate_random_vectors(NUM_RANDOM_VECTORS, NUM_INPUTS)
