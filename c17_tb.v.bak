@@ -1,0 +1,28 @@
+module c17_tb;
+    // Declaração de sinais
+    reg x1, x2, x3, x6, x7;
+    wire z1, z2;
+
+    // Instância do módulo C17
+    c17 uut (
+        .x1(x1), .x2(x2), .x3(x3), .x6(x6), .x7(x7),
+        .z1(z1), .z2(z2)
+    );
+
+    initial begin
+        $display("Teste do C17 com ISCAS'85");
+        $monitor("Tempo=%0t | x1=%b x2=%b x3=%b x6=%b x7=%b | z1=%b z2=%b", 
+                  $time, x1, x2, x3, x6, x7, z1, z2);
+
+        // Casos de teste normais
+        x1 = 0; x2 = 0; x3 = 0; x6 = 0; x7 = 0; #10;
+        x1 = 1; x2 = 0; x3 = 1; x6 = 1; x7 = 0; #10;
+        x1 = 1; x2 = 1; x3 = 1; x6 = 0; x7 = 1; #10;
+
+        // Injeção de falhas (exemplo de stuck-at-0 em x3)
+        $display("Injeção de Falha: x3 = 0 (stuck-at-0)");
+        x1 = 1; x2 = 1; x3 = 0; x6 = 1; x7 = 1; #10;
+
+        $stop; // Termina a simulação
+    end
+endmodule
