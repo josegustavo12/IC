@@ -1,0 +1,210 @@
+// Diagrama do Circuito
+digraph {
+	dpi=300 rankdir=LR size="12,8"
+	subgraph cluster_inputs {
+		color=lightblue label=Entradas
+		a0 [label="a0
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		a1 [label="a1
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		a2 [label="a2
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		a3 [label="a3
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		b0 [label="b0
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		b1 [label="b1
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		b2 [label="b2
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		b3 [label="b3
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+		cin [label="cin
+(Entrada)" fillcolor=lightblue shape=box style=filled]
+	}
+	subgraph cluster_outputs {
+		color=lightgreen label="Saídas"
+		cout [label="cout
+(Wire)" fillcolor=lightgreen shape=box style=filled]
+		s0 [label="s0
+(Wire)" fillcolor=lightgreen shape=box style=filled]
+		s1 [label="s1
+(Wire)" fillcolor=lightgreen shape=box style=filled]
+		s2 [label="s2
+(Wire)" fillcolor=lightgreen shape=box style=filled]
+		s3 [label="s3
+(Wire)" fillcolor=lightgreen shape=box style=filled]
+	}
+	nb0 [label="U1_0
+(PortaNot)" shape=rectangle]
+	a0_and_nb0 [label="U2_0
+(PortaAnd)" shape=rectangle]
+	na0 [label="U3_0
+(PortaNot)" shape=rectangle]
+	na0_and_b0 [label="U4_0
+(PortaAnd)" shape=rectangle]
+	x0 [label="U5_0
+(PortaOr)" shape=rectangle]
+	ncin0 [label="U6_0
+(PortaNot)" shape=rectangle]
+	x_and_ncin0 [label="U7_0
+(PortaAnd)" shape=rectangle]
+	nx0 [label="U8_0
+(PortaNot)" shape=rectangle]
+	nx_and_cin0 [label="U9_0
+(PortaAnd)" shape=rectangle]
+	a0_and_b0 [label="U11_0
+(PortaAnd)" shape=rectangle]
+	cin_and_x0 [label="U12_0
+(PortaAnd)" shape=rectangle]
+	c1 [label="U13_0
+(PortaOr)" shape=rectangle]
+	nb1 [label="U1_1
+(PortaNot)" shape=rectangle]
+	a1_and_nb1 [label="U2_1
+(PortaAnd)" shape=rectangle]
+	na1 [label="U3_1
+(PortaNot)" shape=rectangle]
+	na1_and_b1 [label="U4_1
+(PortaAnd)" shape=rectangle]
+	x1 [label="U5_1
+(PortaOr)" shape=rectangle]
+	ncin1 [label="U6_1
+(PortaNot)" shape=rectangle]
+	x_and_ncin1 [label="U7_1
+(PortaAnd)" shape=rectangle]
+	nx1 [label="U8_1
+(PortaNot)" shape=rectangle]
+	nx_and_cin1 [label="U9_1
+(PortaAnd)" shape=rectangle]
+	a1_and_b1 [label="U11_1
+(PortaAnd)" shape=rectangle]
+	cin_and_x1 [label="U12_1
+(PortaAnd)" shape=rectangle]
+	c2 [label="U13_1
+(PortaOr)" shape=rectangle]
+	nb2 [label="U1_2
+(PortaNot)" shape=rectangle]
+	a2_and_nb2 [label="U2_2
+(PortaAnd)" shape=rectangle]
+	na2 [label="U3_2
+(PortaNot)" shape=rectangle]
+	na2_and_b2 [label="U4_2
+(PortaAnd)" shape=rectangle]
+	x2 [label="U5_2
+(PortaOr)" shape=rectangle]
+	ncin2 [label="U6_2
+(PortaNot)" shape=rectangle]
+	x_and_ncin2 [label="U7_2
+(PortaAnd)" shape=rectangle]
+	nx2 [label="U8_2
+(PortaNot)" shape=rectangle]
+	nx_and_cin2 [label="U9_2
+(PortaAnd)" shape=rectangle]
+	a2_and_b2 [label="U11_2
+(PortaAnd)" shape=rectangle]
+	cin_and_x2 [label="U12_2
+(PortaAnd)" shape=rectangle]
+	c3 [label="U13_2
+(PortaOr)" shape=rectangle]
+	nb3 [label="U1_3
+(PortaNot)" shape=rectangle]
+	a3_and_nb3 [label="U2_3
+(PortaAnd)" shape=rectangle]
+	na3 [label="U3_3
+(PortaNot)" shape=rectangle]
+	na3_and_b3 [label="U4_3
+(PortaAnd)" shape=rectangle]
+	x3 [label="U5_3
+(PortaOr)" shape=rectangle]
+	ncin3 [label="U6_3
+(PortaNot)" shape=rectangle]
+	x_and_ncin3 [label="U7_3
+(PortaAnd)" shape=rectangle]
+	nx3 [label="U8_3
+(PortaNot)" shape=rectangle]
+	nx_and_cin3 [label="U9_3
+(PortaAnd)" shape=rectangle]
+	a3_and_b3 [label="U11_3
+(PortaAnd)" shape=rectangle]
+	cin_and_x3 [label="U12_3
+(PortaAnd)" shape=rectangle]
+	b0 -> nb0
+	a0 -> a0_and_nb0
+	U1_0 -> a0_and_nb0
+	a0 -> na0
+	U3_0 -> na0_and_b0
+	b0 -> na0_and_b0
+	U2_0 -> x0
+	U4_0 -> x0
+	cin -> ncin0
+	U5_0 -> x_and_ncin0
+	U6_0 -> x_and_ncin0
+	U5_0 -> nx0
+	U8_0 -> nx_and_cin0
+	cin -> nx_and_cin0
+	a0 -> a0_and_b0
+	b0 -> a0_and_b0
+	cin -> cin_and_x0
+	U5_0 -> cin_and_x0
+	U11_0 -> c1
+	U12_0 -> c1
+	b1 -> nb1
+	a1 -> a1_and_nb1
+	U1_1 -> a1_and_nb1
+	a1 -> na1
+	U3_1 -> na1_and_b1
+	b1 -> na1_and_b1
+	U2_1 -> x1
+	U4_1 -> x1
+	U13_0 -> ncin1
+	U5_1 -> x_and_ncin1
+	U6_1 -> x_and_ncin1
+	U5_1 -> nx1
+	U8_1 -> nx_and_cin1
+	U13_0 -> nx_and_cin1
+	a1 -> a1_and_b1
+	b1 -> a1_and_b1
+	U13_0 -> cin_and_x1
+	U5_1 -> cin_and_x1
+	U11_1 -> c2
+	U12_1 -> c2
+	b2 -> nb2
+	a2 -> a2_and_nb2
+	U1_2 -> a2_and_nb2
+	a2 -> na2
+	U3_2 -> na2_and_b2
+	b2 -> na2_and_b2
+	U2_2 -> x2
+	U4_2 -> x2
+	U13_1 -> ncin2
+	U5_2 -> x_and_ncin2
+	U6_2 -> x_and_ncin2
+	U5_2 -> nx2
+	U8_2 -> nx_and_cin2
+	U13_1 -> nx_and_cin2
+	a2 -> a2_and_b2
+	b2 -> a2_and_b2
+	U13_1 -> cin_and_x2
+	U5_2 -> cin_and_x2
+	U11_2 -> c3
+	U12_2 -> c3
+	b3 -> nb3
+	a3 -> a3_and_nb3
+	U1_3 -> a3_and_nb3
+	a3 -> na3
+	U3_3 -> na3_and_b3
+	b3 -> na3_and_b3
+	U2_3 -> x3
+	U4_3 -> x3
+	U13_2 -> ncin3
+	U5_3 -> x_and_ncin3
+	U6_3 -> x_and_ncin3
+	U5_3 -> nx3
+	U8_3 -> nx_and_cin3
+	U13_2 -> nx_and_cin3
+	a3 -> a3_and_b3
+	b3 -> a3_and_b3
+	U13_2 -> cin_and_x3
+	U5_3 -> cin_and_x3
+}
