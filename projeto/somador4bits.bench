@@ -1,0 +1,48 @@
+# Arquivo bench para um somador de 4 bits
+
+# Entradas primárias
+INPUT(A0)
+INPUT(A1)
+INPUT(A2)
+INPUT(A3)
+INPUT(B0)
+INPUT(B1)
+INPUT(B2)
+INPUT(B3)
+
+# Saídas primárias
+OUTPUT(S0)
+OUTPUT(S1)
+OUTPUT(S2)
+OUTPUT(S3)
+OUTPUT(C4)
+
+# Descrição do circuito do somador de 4 bits
+
+# Bit 0 (Half Adder)
+S0 = XOR(A0, B0)
+C0 = AND(A0, B0)
+
+# Bit 1 (Full Adder)
+X1 = XOR(A1, B1)
+S1 = XOR(X1, C0)
+A1B1 = AND(A1, B1)
+X1C0 = AND(X1, C0)
+C1 = OR(A1B1, X1C0)
+
+# Bit 2 (Full Adder)
+X2 = XOR(A2, B2)
+S2 = XOR(X2, C1)
+A2B2 = AND(A2, B2)
+X2C1 = AND(X2, C1)
+C2 = OR(A2B2, X2C1)
+
+# Bit 3 (Full Adder)
+X3 = XOR(A3, B3)
+S3 = XOR(X3, C2)
+A3B3 = AND(A3, B3)
+X3C2 = AND(X3, C2)
+C3 = OR(A3B3, X3C2)
+
+# Saída de carry final
+C4 = BUF(C3)
